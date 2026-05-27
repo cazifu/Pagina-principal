@@ -1,0 +1,62 @@
+.back-btn {
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    color: #4a90e2;
+    text-decoration: none;
+    border: 3px solid #4a90e2;
+    padding: 12px 20px;
+    margin-bottom: 25px;
+    transition: all 0.2s;
+    background: #16213e;
+}
+
+.back-btn:hover {
+    background: #4a90e2;
+    color: #fff;
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 rgba(74, 144, 226, 0.4);
+}
+
+.project-detail {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.project-number-big {
+    font-size: 60px;
+    color: rgba(74, 144, 226, 0.15);
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.detail-section {
+    margin-bottom: 35px;
+    padding-left: 15px;
+    border-left: 4px solid #4a90e2;
+}
+
+.detail-section h3 {
+    font-size: 13px;
+    color: #6ba3e8;
+    margin-bottom: 15px;
+}
+
+.detail-section p {
+    font-size: 11px;
+    line-height: 2;
+}
+
+.feature-list {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+}
+
+.feature-list li {
+    font-size: 10px;
+    line-height: 1.8;
+    color: #e0e0e0;
+}
